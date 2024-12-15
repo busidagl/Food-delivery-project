@@ -1,0 +1,261 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+    margin: 0;
+      padding: 0;
+        background-color: #f8f8f8;
+          color: #333;
+          }
+
+          .container {
+            width: 90%;
+              max-width: 1200px;
+                margin: 20px auto;
+                  padding: 20px;
+                    background-color: #fff;
+                      border-radius: 8px;
+                        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                        }
+
+                        h1, h2, h3 {
+                          color: #e44d26; /* AffoodaBites primary color */
+                            text-align: center;
+                            }
+
+                            a {
+                              text-decoration: none;
+                                color: #e44d26;
+                                }
+
+                                a:hover {
+                                  text-decoration: underline;
+                                  }
+
+                                  /* Navigation Bar */
+                                  nav {
+                                    background: #333;
+                                      color: #fff;
+                                        padding: 10px 0;
+                                          text-align: center;
+                                          }
+                                          nav ul {
+                                            margin: 0;
+                                              padding: 0;
+                                                list-style: none;
+                                                }
+                                                nav ul li {
+                                                  display: inline;
+                                                    margin: 0 20px;
+                                                    }
+                                                    nav ul li a {
+                                                      color: white;
+                                                        text-decoration: none;
+                                                          font-size: 1.1em;
+                                                            transition: color 0.3s ease;
+                                                            }
+                                                            nav ul li a:hover {
+                                                              color: #e44d26;
+                                                              }
+
+                                                              /* Header */
+                                                              header {
+                                                                text-align: center;
+                                                                  padding: 2em 0;
+                                                                  }
+
+                                                                  header img {
+                                                                    width: 150px;
+                                                                      margin-bottom: 1em;
+                                                                      }
+
+                                                                      /* Menu Items Styles */
+                                                                      .menu-item {
+                                                                        border: 1px solid #ddd;
+                                                                          padding: 15px;
+                                                                            margin-bottom: 15px;
+                                                                              background: #fff;
+                                                                                border-radius: 5px;
+                                                                                  display: flex;
+                                                                                    align-items: center;
+                                                                                    }
+                                                                                    .menu-item img {
+                                                                                      width: 100px;
+                                                                                        height: 100px;
+                                                                                          margin-right: 15px;
+                                                                                            border-radius: 5px;
+                                                                                            }
+                                                                                            .menu-item .details {
+                                                                                                flex-grow: 1;
+                                                                                                }
+                                                                                                .menu-item h3 {
+                                                                                                    margin-top: 0;
+                                                                                                        color: #333;
+                                                                                                        }
+                                                                                                        .menu-item p{
+                                                                                                           margin: 5px 0;
+                                                                                                              color: #555;
+                                                                                                              }
+                                                                                                              .menu-item .price {
+                                                                                                                  font-weight: bold;
+                                                                                                                      color: #e44d26;
+                                                                                                                          margin-bottom: 10px;
+                                                                                                                          }
+
+                                                                                                                          /* Cart items */
+                                                                                                                          .cart-item {
+                                                                                                                              display: flex;
+                                                                                                                                  align-items: center;
+                                                                                                                                      margin-bottom: 15px;
+                                                                                                                                          padding: 10px;
+                                                                                                                                              border: 1px solid #ddd;
+                                                                                                                                                  border-radius: 5px;
+                                                                                                                                                      background-color: #fff;
+                                                                                                                                                      }
+                                                                                                                                                      .cart-item img {
+                                                                                                                                                         width: 80px;
+                                                                                                                                                            height: 80px;
+                                                                                                                                                               margin-right: 15px;
+                                                                                                                                                                  border-radius: 5px;
+                                                                                                                                                                  }
+
+                                                                                                                                                                  .cart-item .item-details {
+                                                                                                                                                                      flex-grow: 1;
+                                                                                                                                                                      }
+                                                                                                                                                                      .cart-item .item-details h3{
+                                                                                                                                                                         margin: 0 0 5px;
+                                                                                                                                                                             color: #333;
+                                                                                                                                                                             }
+                                                                                                                                                                             .cart-item .item-details p {
+                                                                                                                                                                                margin: 0;
+                                                                                                                                                                                   color: #555;
+                                                                                                                                                                                   }
+                                                                                                                                                                                   .cart-item .quantity {
+                                                                                                                                                                                       margin-right: 15px;
+                                                                                                                                                                                           font-weight: bold;
+                                                                                                                                                                                           }
+
+                                                                                                                                                                                           /* Reviews */
+                                                                                                                                                                                           .review {
+                                                                                                                                                                                               background: #f9f9f9;
+                                                                                                                                                                                                   padding: 15px;
+                                                                                                                                                                                                       margin-bottom: 15px;
+                                                                                                                                                                                                           border: 1px solid #ddd;
+                                                                                                                                                                                                               border-radius: 5px;
+                                                                                                                                                                                                               }
+                                                                                                                                                                                                               .review .author {
+                                                                                                                                                                                                                   font-weight: bold;
+                                                                                                                                                                                                                       margin-bottom: 5px;
+                                                                                                                                                                                                                           color: #333;
+                                                                                                                                                                                                                           }
+                                                                                                                                                                                                                           .review .rating {
+                                                                                                                                                                                                                               color: gold;
+                                                                                                                                                                                                                                   margin-bottom: 5px;
+                                                                                                                                                                                                                                   }
+                                                                                                                                                                                                                                   .review .comment {
+                                                                                                                                                                                                                                       font-style: italic;
+                                                                                                                                                                                                                                           color: #555;
+                                                                                                                                                                                                                                           }
+                                                                                                                                                                                                                                           .review .date {
+                                                                                                                                                                                                                                             font-size: 0.9em;
+                                                                                                                                                                                                                                               color: #888;
+                                                                                                                                                                                                                                                 margin-top: 5px;
+                                                                                                                                                                                                                                                 }
+
+
+                                                                                                                                                                                                                                                 /* Forms */
+                                                                                                                                                                                                                                                 .form-container {
+                                                                                                                                                                                                                                                     width: 80%;
+                                                                                                                                                                                                                                                         max-width: 500px;
+                                                                                                                                                                                                                                                             margin: 20px auto;
+                                                                                                                                                                                                                                                                 padding: 20px;
+                                                                                                                                                                                                                                                                     background: #fff;
+                                                                                                                                                                                                                                                                         border-radius: 8px;
+                                                                                                                                                                                                                                                                             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                                                                                                                                                                                                                                                                             }
+
+                                                                                                                                                                                                                                                                             .form-group {
+                                                                                                                                                                                                                                                                                 margin-bottom: 15px;
+                                                                                                                                                                                                                                                                                 }
+                                                                                                                                                                                                                                                                                 .form-group label {
+                                                                                                                                                                                                                                                                                     display: block;
+                                                                                                                                                                                                                                                                                         margin-bottom: 5px;
+                                                                                                                                                                                                                                                                                             font-weight: bold;
+                                                                                                                                                                                                                                                                                             }
+                                                                                                                                                                                                                                                                                             .form-group input[type="text"],
+                                                                                                                                                                                                                                                                                             .form-group input[type="email"],
+                                                                                                                                                                                                                                                                                             .form-group input[type="password"],
+                                                                                                                                                                                                                                                                                             .form-group textarea{
+                                                                                                                                                                                                                                                                                                 width: calc(100% - 20px);
+                                                                                                                                                                                                                                                                                                     padding: 10px;
+                                                                                                                                                                                                                                                                                                         border: 1px solid #ddd;
+                                                                                                                                                                                                                                                                                                             border-radius: 4px;
+                                                                                                                                                                                                                                                                                                                 box-sizing: border-box;
+                                                                                                                                                                                                                                                                                                                     font-size: 1em;
+                                                                                                                                                                                                                                                                                                                     }
+                                                                                                                                                                                                                                                                                                                     .form-group button {
+                                                                                                                                                                                                                                                                                                                         padding: 10px 15px;
+                                                                                                                                                                                                                                                                                                                             background: #e44d26;
+                                                                                                                                                                                                                                                                                                                                 color: #fff;
+                                                                                                                                                                                                                                                                                                                                     border: none;
+                                                                                                                                                                                                                                                                                                                                         border-radius: 4px;
+                                                                                                                                                                                                                                                                                                                                             cursor: pointer;
+                                                                                                                                                                                                                                                                                                                                                 font-size: 1em;
+                                                                                                                                                                                                                                                                                                                                                     transition: background-color 0.3s ease;
+                                                                                                                                                                                                                                                                                                                                                     }
+                                                                                                                                                                                                                                                                                                                                                     .form-group button:hover {
+                                                                                                                                                                                                                                                                                                                                                       background: #c63f1e;
+                                                                                                                                                                                                                                                                                                                                                       }
+                                                                                                                                                                                                                                                                                                                                                       .error-message {
+                                                                                                                                                                                                                                                                                                                                                          color: red;
+                                                                                                                                                                                                                                                                                                                                                             font-size: 0.9em;
+                                                                                                                                                                                                                                                                                                                                                                margin-top: 5px;
+                                                                                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                                                                                /* Footer */
+                                                                                                                                                                                                                                                                                                                                                                footer {
+                                                                                                                                                                                                                                                                                                                                                                  text-align: center;
+                                                                                                                                                                                                                                                                                                                                                                    padding: 1em 0;
+                                                                                                                                                                                                                                                                                                                                                                      background-color: #333;
+                                                                                                                                                                                                                                                                                                                                                                        color: #fff;
+                                                                                                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                                                                                                                        /* Button Styles */
+                                                                                                                                                                                                                                                                                                                                                                        .btn {
+                                                                                                                                                                                                                                                                                                                                                                            padding: 10px 15px;
+                                                                                                                                                                                                                                                                                                                                                                                background: #e44d26;
+                                                                                                                                                                                                                                                                                                                                                                                    color: #fff;
+                                                                                                                                                                                                                                                                                                                                                                                        border: none;
+                                                                                                                                                                                                                                                                                                                                                                                            border-radius: 4px;
+                                                                                                                                                                                                                                                                                                                                                                                                cursor: pointer;
+                                                                                                                                                                                                                                                                                                                                                                                                    font-size: 1em;
+                                                                                                                                                                                                                                                                                                                                                                                                        transition: background-color 0.3s ease;
+                                                                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                                                                        .btn:hover {
+                                                                                                                                                                                                                                                                                                                                                                                                          background: #c63f1e;
+                                                                                                                                                                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                                                                                                                                                                          /* Icons */
+                                                                                                                                                                                                                                                                                                                                                                                                          .icon {
+                                                                                                                                                                                                                                                                                                                                                                                                            display: inline-block;
+                                                                                                                                                                                                                                                                                                                                                                                                              width: 1em;
+                                                                                                                                                                                                                                                                                                                                                                                                                height: 1em;
+                                                                                                                                                                                                                                                                                                                                                                                                                  margin-right: 5px;
+                                                                                                                                                                                                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                  .cart-icon {
+                                                                                                                                                                                                                                                                                                                                                                                                                      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M17 18c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM2 2h2l2 10h10l-2 8H6l-2-8H2V2zm3 12l2-6h8l-1 5h-4v2h5l1-4h2V7h-10l1 4h-3v-3H4l1 3z"/></svg>');
+                                                                                                                                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                                                                                                                                      .user-icon {
+                                                                                                                                                                                                                                                                                                                                                                                                                        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12 4c2.21 0 4 1.79 4 4s-1.79 4-4 4-4-1.79-4-4 1.79-4 4-4m0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4"/></svg>');
+                                                                                                                                                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                        .menu-icon {
+                                                                                                                                                                                                                                                                                                                                                                                                                            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M3 7h18v2H3V7zm0 4h18v2H3v-2zm0 4h18v2H3v-2z"/></svg>');
+                                                                                                                                                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                            .review-icon {
+                                                                                                                                                                                                                                                                                                                                                                                                                               background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V7h12v4z"/></svg>');
+                                                                                                                                                                                                                                                                                                                                                                                                                               }
+                                                                                                                                                                                                                                                                                                                                                                                                                               .contact-icon {
+                                                                                                                                                                                                                                                                                                                                                                                                                                   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>');
+                                                                                                                                                                                                                                                                                                                                                                                                                                   }
